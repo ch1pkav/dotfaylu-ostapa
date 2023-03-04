@@ -1,0 +1,24 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/2_2Semester/TA/ostap/demchuk_kocherkevych" value="true" />
+        <entry key="$USER_HOME$/Documents/2_2Semester/TA/ostap/ustym" value="true" />
+        <entry key="$USER_HOME$/Documents/2_2Semester/aks/lab1_cpp_productivity_comparison-seryvko_" value="true" />
+        <entry key="$USER_HOME$/Documents/2_2Semester/aks/lab1test" value="true" />
+        <entry key="$USER_HOME$/Documents/2_2Semester/aks/lab2_integral_sequential-seryvko_muzychuk" value="true" />
+        <entry key="$USER_HOME$/Documents/2_2Semester/aks/lab3_integral_parallel-seryvko_muzychuk" value="true" />
+        <entry key="$USER_HOME$/Documents/2_2Semester/lab2_integral_sequential-seryvko_muzychuk" value="true" />
+        <entry key="$USER_HOME$/Documents/aks/lab1test" value="true" />
+        <entry key="$USER_HOME$/Documents/algo" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/2_2Semester/aks" />
+      </list>
+    </option>
+  </component>
+</application>

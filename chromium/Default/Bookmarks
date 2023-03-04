@@ -1,0 +1,194 @@
+{
+   "checksum": "815ee9b8bb92205f0cd0029b62d40a29",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "0",
+            "date_last_used": "0",
+            "guid": "b34b7a15-73c8-4341-8c96-792bd601c9a2",
+            "id": "5",
+            "name": "Community",
+            "type": "url",
+            "url": "https://community.linuxmint.com/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "01adbd7e-29bc-438c-9a1c-ac45b9f16955",
+                  "id": "9",
+                  "name": "Getting Started",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/firefox/central/"
+               }, {
+                  "date_added": "13319197771000000",
+                  "date_last_used": "0",
+                  "guid": "def04b6b-a1b6-418a-99cc-b7ed71725137",
+                  "id": "10",
+                  "name": "Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher",
+                  "type": "url",
+                  "url": "https://www.nerdfonts.com/cheat-sheet"
+               } ],
+               "date_added": "13321792976206402",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "5bebb085-aadc-4100-b2a0-b902a5bba20e",
+               "id": "8",
+               "name": "toolbar",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "1722486b-71cd-43fa-ace3-a32637686237",
+                  "id": "12",
+                  "name": "Get Help",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/products/firefox"
+               }, {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "2f891827-460b-4f98-9f6f-05f6742df541",
+                  "id": "13",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "21a2180d-2b8b-4db3-8496-6364cf42fb0b",
+                  "id": "14",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/contribute/"
+               }, {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "42987d01-f4a6-4944-9e87-561900457da1",
+                  "id": "15",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/about/"
+               } ],
+               "date_added": "13321792976206580",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "b27bf288-2087-42fe-b671-17f1ddc33165",
+               "id": "11",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            } ],
+            "date_added": "13321792976204842",
+            "date_last_used": "0",
+            "date_modified": "13321792976204842",
+            "guid": "2bb54f66-6e45-4cd8-a1d8-b170678c1c2a",
+            "id": "7",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "32653404-4520-4b7c-a9e2-bcf1bdc421c2",
+                  "id": "18",
+                  "name": "Getting Started",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/firefox/central/"
+               }, {
+                  "date_added": "13319197771000000",
+                  "date_last_used": "0",
+                  "guid": "5e27c827-e403-4b00-bc46-c64ffdbf1da5",
+                  "id": "19",
+                  "name": "Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher",
+                  "type": "url",
+                  "url": "https://www.nerdfonts.com/cheat-sheet"
+               } ],
+               "date_added": "13321792984733888",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "e96cd44e-d3fd-4044-8708-7038a146039e",
+               "id": "17",
+               "name": "toolbar",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "3ab07292-d3e7-4b86-a74c-63f0127d2244",
+                  "id": "21",
+                  "name": "Get Help",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/products/firefox"
+               }, {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "e8ca2abc-a4e9-4966-b7e1-93ed161e2236",
+                  "id": "22",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "7e6b9cce-2163-4940-9e45-11800f1378c8",
+                  "id": "23",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/contribute/"
+               }, {
+                  "date_added": "13315691253000000",
+                  "date_last_used": "0",
+                  "guid": "98f8a6ad-2dff-4434-b01e-018319eb50a9",
+                  "id": "24",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/about/"
+               } ],
+               "date_added": "13321792984734067",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "dca1faec-1c28-4302-b3b3-cdf753e3bfd5",
+               "id": "20",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            } ],
+            "date_added": "13321792984733109",
+            "date_last_used": "0",
+            "date_modified": "13321792984733109",
+            "guid": "2a69ec75-339c-42ff-a394-cf8459611a9d",
+            "id": "16",
+            "name": "Imported From Firefox (1)",
+            "type": "folder"
+         } ],
+         "date_added": "13316106980895576",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13316106980895578",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13316106980895579",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

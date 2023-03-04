@@ -1,0 +1,6 @@
+2023/03/03-15:42:40.268 9fa Creating DB /home/ostap/.config/chromium/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb since it was missing.
+2023/03/03-15:42:40.274 9fa Reusing MANIFEST /home/ostap/.config/chromium/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/04-20:54:58.657 9fb Level-0 table #5: started
+2023/03/04-20:54:58.659 9fb Level-0 table #5: 2130 bytes OK
+2023/03/04-20:54:58.662 9fb Delete type=0 #3
+2023/03/04-20:54:58.663 9fb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

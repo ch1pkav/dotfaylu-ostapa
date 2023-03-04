@@ -1,0 +1,85 @@
+<application>
+  <component name="PropertyService">{
+  &quot;keyToString&quot;: {
+    &quot;CWM_LOGGING_VERSION&quot;: &quot;1&quot;,
+    &quot;DbRenameDialog.previewExpanded&quot;: &quot;true&quot;,
+    &quot;JUnitSupport.hidePassedTests&quot;: &quot;false&quot;,
+    &quot;LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators&quot;: &quot;IU-223.8214.52&quot;,
+    &quot;MemberChooser.copyJavadoc&quot;: &quot;false&quot;,
+    &quot;MemberChooser.showClasses&quot;: &quot;true&quot;,
+    &quot;NonModalCommitCustomization.IsApplied&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.se.text.search&quot;: &quot;true&quot;,
+    &quot;appcds.runOnSecondStart&quot;: &quot;IU-223.8214.52-53ac84af85319e546db38d4da4265c3e6774da431f3b0af4c51996e2b1e03741&quot;,
+    &quot;ask.about.ctrl.y.shortcut.v2&quot;: &quot;true&quot;,
+    &quot;build.toolwindow.Build Output.selection.state&quot;: &quot;com.intellij.build.BuildTreeConsoleView&quot;,
+    &quot;build.toolwindow.Sync.selection.state&quot;: &quot;com.intellij.build.BuildTreeConsoleView&quot;,
+    &quot;bundled.plugins.list.saved.version&quot;: &quot;IU-223.8214.52&quot;,
+    &quot;com.intellij.database.actions.DbDeleteProvider$2.proportion&quot;: &quot;0.5&quot;,
+    &quot;com.intellij.database.actions.ddl.DbModifyObjectDialog.proportion&quot;: &quot;0.5&quot;,
+    &quot;com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep&quot;: &quot;Maven&quot;,
+    &quot;com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep&quot;: &quot;Java&quot;,
+    &quot;com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor&quot;: &quot;Dependencies&quot;,
+    &quot;debugger.smart.chooser.counter&quot;: &quot;2&quot;,
+    &quot;decompiler.legal.notice.accepted&quot;: &quot;true&quot;,
+    &quot;defaultJdkConfigured&quot;: &quot;true&quot;,
+    &quot;eclipse.projects.detected&quot;: &quot;&quot;,
+    &quot;evlsprt3.223&quot;: &quot;24&quot;,
+    &quot;file.gist.reindex.count&quot;: &quot;53&quot;,
+    &quot;fileTypeChangedCounter&quot;: &quot;9&quot;,
+    &quot;fontSizeToResetConsole&quot;: &quot;13.0&quot;,
+    &quot;fontSizeToResetEditor&quot;: &quot;13.0&quot;,
+    &quot;got.it.tooltip.database.schema.control.got.it&quot;: &quot;1&quot;,
+    &quot;got.it.tooltip.reader.mode.got.it&quot;: &quot;1&quot;,
+    &quot;gotit.previous.run&quot;: &quot;IU-223.8214.52&quot;,
+    &quot;ide.memory.adjusted&quot;: &quot;true&quot;,
+    &quot;ide.updates.previous.build.number&quot;: &quot;IU-223.8214.52&quot;,
+    &quot;input.method.disabler.muted&quot;: &quot;true&quot;,
+    &quot;installed.kotlin.plugin.version&quot;: &quot;223-1.7.21-release-272-IJ8214.52&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ostap/Documents/OOp/SomeAnotherPatterns/db.sqlite3&quot;,
+    &quot;previousColorScheme&quot;: &quot;_@user_Darcula&quot;,
+    &quot;project.wizard.group&quot;: &quot;NPW.simple-project&quot;,
+    &quot;registry.to.advanced.settings.migration.build&quot;: &quot;IU-223.8214.52&quot;,
+    &quot;tasks.pass.word.conversion.enforced&quot;: &quot;true&quot;,
+    &quot;ts.lib.d.ts.version&quot;: &quot;4.8.4&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;file.chooser.recent.files&quot;: [
+      &quot;/home/ostap/Documents/OOp/SomeAnotherPatterns/db.sqlite3&quot;,
+      &quot;/home/ostap/Documents/OOp/SomeAnotherPatterns&quot;,
+      &quot;/home/ostap/Documents/OOp/Once_More_Patterns&quot;,
+      &quot;/home/ostap/Documents/OOp/FlowerStoreSequel&quot;,
+      &quot;/home/ostap/Documents/OOp/FlowerStore3-ReturnOfJedi&quot;,
+      &quot;/home/ostap/Documents/OOp/FlowerStore-Endgame&quot;,
+      &quot;/home/ostap/Documents/OOp/No_Flower_Store_Question_mark&quot;,
+      &quot;/home/ostap/Documents/OOp/Some-Patterns-IDK&quot;,
+      &quot;/home/ostap/FlowerStore-Endgame&quot;,
+      &quot;/home/ostap/Documents/OOp/Lab11&quot;,
+      &quot;/home/ostap/Documents/OOp&quot;
+    ],
+    &quot;fileTypeDetectors&quot;: [
+      &quot;com.intellij.ide.scratch.ScratchFileServiceImpl$Detector&quot;,
+      &quot;com.intellij.docker.dockerFile.DockerFileTypeDetector&quot;,
+      &quot;com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector&quot;,
+      &quot;com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector&quot;,
+      &quot;com.intellij.database.vfs.DbStorageFileType$Detector&quot;,
+      &quot;com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector&quot;,
+      &quot;com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector&quot;,
+      &quot;com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector&quot;,
+      &quot;com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector&quot;,
+      &quot;org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector&quot;
+    ]
+  }
+}</component>
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;ShowUsages&quot;: 1672223578832
+  }
+}</component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="SomeAnotherPatterns-history" project-path="$USER_HOME$/Documents/OOp/SomeAnotherPatterns" last-access-time="1673270594728" />
+      <command-history-file filename="Once_More_Patterns-history" project-path="$USER_HOME$/Documents/OOp/Once_More_Patterns" last-access-time="1674490954680" />
+    </command-history-files>
+  </component>
+</application>

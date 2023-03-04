@@ -1,0 +1,20 @@
+[Info  - 3:38:18 PM] (21951) Pylance language server 2023.2.10 (pyright 01758105) starting
+[Info  - 3:38:18 PM] (21951) Server root directory: /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.2.10/dist
+[Info  - 3:38:18 PM] (21951) Starting service instance "Final"
+[Info  - 3:38:18 PM] (21951) No configuration file found.
+[Info  - 3:38:18 PM] (21951) No pyproject.toml file found.
+[Info  - 3:38:18 PM] (21951) Setting pythonPath for service "Final": "/bin/python3"
+[Warn  - 3:38:18 PM] (21951) stubPath /home/ostap/Documents/algo/Final/typings is not a valid directory.
+[Info  - 3:38:18 PM] (21951) Assuming Python version 3.10
+[Info  - 3:38:18 PM] (21951) Assuming Python platform Linux
+[Info  - 3:38:19 PM] (21951) Searching for source files
+[Info  - 3:38:19 PM] (21951) Found 6 source files
+[Info  - 3:38:19 PM] (21951) Background analysis(1) root directory: /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.2.10/dist
+[Info  - 3:38:19 PM] (21951) Background analysis(1) started
+[Info  - 3:38:19 PM] (21951) Indexer background runner(2) root directory: /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.2.10/dist (index)
+[Info  - 3:38:19 PM] (21951) Indexing(2) started
+[Info  - 3:38:21 PM] (21951) scanned(2) 217 files over 1 exec env
+[Info  - 3:38:25 PM] (21951) [IDX(2)] Long operation: index execution environment /home/ostap/Documents/algo/Final (3468ms)
+[Info  - 3:38:25 PM] (21951) [IDX(2)] Long operation: index packages /home/ostap/Documents/algo/Final (3495ms)
+[Info  - 3:38:25 PM] (21951) indexed(2) 139 files over 1 exec env
+[Info  - 3:38:25 PM] (21951) Indexing finished(2).

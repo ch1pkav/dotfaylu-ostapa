@@ -1,0 +1,6 @@
+2023/03/02-23:07:02.962 9fa Creating DB /home/ostap/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb since it was missing.
+2023/03/02-23:07:02.968 9fa Reusing MANIFEST /home/ostap/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/02-23:58:31.569 9fb Level-0 table #5: started
+2023/03/02-23:58:31.579 9fb Level-0 table #5: 536018 bytes OK
+2023/03/02-23:58:31.582 9fb Delete type=0 #3
+2023/03/02-23:58:31.583 9fb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

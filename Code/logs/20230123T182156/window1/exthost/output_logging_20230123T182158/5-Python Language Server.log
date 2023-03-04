@@ -1,0 +1,24 @@
+[Info  - 6:22:03 PM] (6806) Pylance language server 2023.1.30 (pyright bf8ec313) starting
+[Info  - 6:22:03 PM] (6806) Server root directory: /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.1.30/dist
+[Info  - 6:22:03 PM] (6806) Starting service instance "Final"
+[Info  - 6:22:03 PM] (6806) No configuration file found.
+[Info  - 6:22:03 PM] (6806) No pyproject.toml file found.
+[Info  - 6:22:03 PM] (6806) Setting pythonPath for service "Final": "/bin/python3"
+[Warn  - 6:22:03 PM] (6806) stubPath /home/ostap/Documents/algo/Final/typings is not a valid directory.
+[Info  - 6:22:03 PM] (6806) Assuming Python version 3.10
+[Info  - 6:22:03 PM] (6806) Assuming Python platform Linux
+[Info  - 6:22:04 PM] (6806) Searching for source files
+[Info  - 6:22:04 PM] (6806) Found 6 source files
+[Info  - 6:22:05 PM] (6806) Background analysis(1) root directory: /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.1.30/dist
+[Info  - 6:22:05 PM] (6806) Background analysis(1) started
+[Info  - 6:22:06 PM] (6806) Indexer background runner(2) root directory: /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.1.30/dist (index)
+[Info  - 6:22:06 PM] (6806) Indexing(2) started
+[Info  - 6:22:09 PM] (6806) [IDX(2)] Long operation: scan packages /home/ostap/Documents/algo/Final (3126ms)
+[Info  - 6:22:09 PM] (6806) scanned(2) 216 files over 1 exec env
+[Info  - 6:22:09 PM] (6806) [BG(1)] Long operation: checking: /home/ostap/Documents/algo/Final/minimum.py (3116ms)
+[Info  - 6:22:09 PM] (6806) [BG(1)] Long operation: analyzing: /home/ostap/Documents/algo/Final/minimum.py (3974ms)
+[Info  - 6:22:14 PM] (6806) [IDX(2)] Long operation: indexing: /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.1.30/dist/bundled/stubs/pandas/__init__.pyi (2229ms)
+[Info  - 6:22:19 PM] (6806) [IDX(2)] Long operation: index execution environment /home/ostap/Documents/algo/Final (9652ms)
+[Info  - 6:22:19 PM] (6806) [IDX(2)] Long operation: index packages /home/ostap/Documents/algo/Final (9743ms)
+[Info  - 6:22:19 PM] (6806) indexed(2) 138 files over 1 exec env
+[Info  - 6:22:19 PM] (6806) Indexing finished(2).

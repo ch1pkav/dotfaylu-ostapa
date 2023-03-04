@@ -1,0 +1,24 @@
+2023-03-04 20:55:50.886 [info] Log level: Info
+2023-03-04 20:55:50.886 [info] Validating found git in: "git"
+2023-03-04 20:55:50.886 [info] Using git "2.34.1" from "git"
+2023-03-04 20:55:50.886 [info] > git rev-parse --show-toplevel [17ms]
+2023-03-04 20:55:50.886 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2023-03-04 20:55:50.886 [info] Open repository: /home/ostap/Documents/2_2Semester/web/web_2
+2023-03-04 20:55:50.886 [info] > git rev-parse --show-toplevel [11ms]
+2023-03-04 20:55:50.886 [info] > git config --get commit.template [14ms]
+2023-03-04 20:55:50.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-03-04 20:55:50.886 [info] > git status -z -uall [17ms]
+2023-03-04 20:55:50.886 [info] > git rev-parse --show-toplevel [71ms]
+2023-03-04 20:55:50.886 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2023-03-04 20:55:50.886 [info] > git rev-parse --show-toplevel [23ms]
+2023-03-04 20:55:50.886 [info] > git config --get commit.template [29ms]
+2023-03-04 20:55:50.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-03-04 20:55:50.886 [info] > git status -z -uall [17ms]
+2023-03-04 20:55:50.886 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2023-03-04 20:55:51.362 [info] > git check-ignore -v -z --stdin [11ms]
+2023-03-04 20:55:59.979 [info] > git show --textconv :styles/style.css [45ms]
+2023-03-04 20:55:59.979 [info] > git show --textconv :index.html [11ms]
+2023-03-04 20:55:59.981 [info] > git ls-files --stage -- /home/ostap/Documents/2_2Semester/web/web_2/styles/style.css [28ms]
+2023-03-04 20:55:59.993 [info] > git cat-file -s 3d4a32d8f6ec735d7b0daf3ec9b7f57054500ce5 [4ms]
+2023-03-04 20:55:59.994 [info] > git ls-files --stage -- /home/ostap/Documents/2_2Semester/web/web_2/index.html [16ms]
+2023-03-04 20:56:00.017 [info] > git cat-file -s fdcfedd2d433d43601e21ff516c393e7828d2b64 [14ms]

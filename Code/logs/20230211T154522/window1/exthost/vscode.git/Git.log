@@ -1,0 +1,25 @@
+2023-02-11 15:45:27.600 [info] Log level: Info
+2023-02-11 15:45:27.601 [info] Validating found git in: "git"
+2023-02-11 15:45:27.601 [info] Using git "2.34.1" from "git"
+2023-02-11 15:45:51.660 [info] Log level: Info
+2023-02-11 15:45:51.660 [info] Validating found git in: "git"
+2023-02-11 15:45:51.660 [info] Using git "2.34.1" from "git"
+2023-02-11 15:45:51.664 [info] > git rev-parse --show-toplevel [8ms]
+2023-02-11 15:45:51.692 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2023-02-11 15:45:51.716 [info] Open repository: /home/ostap/Documents/2_2Semester/web/web_1
+2023-02-11 15:45:51.758 [info] > git config --get commit.template [28ms]
+2023-02-11 15:45:51.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-02-11 15:45:51.801 [info] > git status -z -uall [8ms]
+2023-02-11 15:45:51.802 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-11 15:45:51.821 [info] > git config --get commit.template [3ms]
+2023-02-11 15:45:51.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-11 15:45:51.841 [info] > git status -z -uall [8ms]
+2023-02-11 15:45:51.842 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-02-11 15:45:52.281 [info] > git check-ignore -v -z --stdin [7ms]
+2023-02-11 15:45:56.176 [info] > git show --textconv :index.html [15ms]
+2023-02-11 15:45:56.182 [info] > git ls-files --stage -- /home/ostap/Documents/2_2Semester/web/web_1/index.html [6ms]
+2023-02-11 15:45:56.195 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2023-02-11 15:45:59.444 [info] > git config --get commit.template [2ms]
+2023-02-11 15:45:59.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-02-11 15:45:59.469 [info] > git status -z -uall [10ms]
+2023-02-11 15:45:59.471 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]

@@ -1,0 +1,74 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Droid Sans Mono" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CMakeConfigurable.configurations": "0.34812286",
+    "CWM_LOGGING_VERSION": "1",
+    "ExpandBeforeRunStepsPanel": "true",
+    "FindSplitterProportion": "0.36476135",
+    "InstalledPluginsSearchHistory": "/tag:\"Editor Color Schemes\"\n/tag:theme\n/tag:the\n/tag:th\n/tag:",
+    "MarketplacePluginsSearchHistory": "/tag:\"Editor Color Schemes\"\n/tag:Theme\n.\n/tag:Keymap",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
+    "RunOnceActivity.se.text.search": "true",
+    "SettingsSearchHistory": "theme\nrun/de",
+    "TextEditorWithPreview.SplitterProportionKey": "0.17167382",
+    "appcds.runOnSecondStart": "CL-223.8617.54-d34604dc74f6e56829baf2d457209be671360e6b4ebf5b577af9e74d40f31d9c",
+    "bundled.plugins.list.saved.version": "CL-223.8617.54",
+    "clion.initialConfigPerformed": "true",
+    "evlsprt3.223": "24",
+    "file.gist.reindex.count": "238",
+    "fileTypeChangedCounter": "6",
+    "fontSizeToResetConsole": "14.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.reader.mode.got.it": "1",
+    "gotit.previous.run": "CL-223.7571.171",
+    "ide.updates.previous.build.number": "CL-223.8617.54",
+    "input.method.disabler.muted": "true",
+    "last_opened_file_path": "/usr/bin/clang",
+    "previousColorScheme": "_@user_Deep Ocean Theme",
+    "registry.to.advanced.settings.migration.build": "CL-223.8617.54",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "4.8.4"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/ostap/Documents/2_2Semester/aks/lab3_integral_parallel-seryvko_muzychuk",
+      "/home/ostap/Documents/2_2Semester/TA/ostap/demchuk_kocherkevych",
+      "/home/ostap/Documents/2_2Semester/TA/ostap/ustym",
+      "/usr/bin/clang",
+      "/home/ostap/Documents/2_2Semester/aks/lab1_cpp_productivity_comparison-seryvko_",
+      "/home/ostap/Documents/2_2Semester/lab2_integral_sequential-seryvko_muzychuk",
+      "/home/ostap/Documents/2_2Semester/aks/lab2_integral_sequential-seryvko_muzychuk/CMakeLists.txt",
+      "/home/ostap/Documents/2_2Semester/aks/lab2_integral_sequential-seryvko_muzychuk",
+      "/home/ostap/Documents/2_2Semester/aks/lab1test",
+      "/usr/bin/make",
+      "/home/ostap/Documents",
+      "/home/ostap"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;FindReplaceToggle&quot;: 1671448267237
+  }
+}</component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="lab2-history" project-path="$USER_HOME$/Documents/2_2Semester/TA/ostap/demchuk_kocherkevych" last-access-time="1677788495544" />
+      <command-history-file filename="integrate_parallel-history" project-path="$USER_HOME$/Documents/2_2Semester/aks/lab3_integral_parallel-seryvko_muzychuk" last-access-time="1677679866331" />
+    </command-history-files>
+  </component>
+</application>

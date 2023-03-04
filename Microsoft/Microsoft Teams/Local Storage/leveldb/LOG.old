@@ -1,0 +1,21 @@
+2023/03/02-21:32:53.017 1698 Reusing MANIFEST /home/ostap/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/MANIFEST-000001
+2023/03/02-21:32:53.017 1698 Recovering log #793
+2023/03/02-21:32:53.018 1698 Reusing old log /home/ostap/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/000793.log 
+2023/03/02-21:33:54.403 17c4 Level-0 table #797: started
+2023/03/02-21:33:54.419 17c4 Level-0 table #797: 447205 bytes OK
+2023/03/02-21:33:54.422 17c4 Delete type=0 #793
+2023/03/02-21:33:56.820 17c4 Level-0 table #799: started
+2023/03/02-21:33:56.853 17c4 Level-0 table #799: 232628 bytes OK
+2023/03/02-21:33:56.859 17c4 Delete type=0 #796
+2023/03/03-00:00:43.693 17c4 Level-0 table #801: started
+2023/03/03-00:00:43.701 17c4 Level-0 table #801: 86374 bytes OK
+2023/03/03-00:00:43.704 17c4 Delete type=0 #798
+2023/03/03-00:00:43.705 17c4 Compacting 4@0 + 1@1 files
+2023/03/03-00:00:43.795 17c4 Generated table #802@0: 605 keys, 677503 bytes
+2023/03/03-00:00:43.795 17c4 Compacted 4@0 + 1@1 files => 677503 bytes
+2023/03/03-00:00:43.797 17c4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/03-00:00:43.798 17c4 Delete type=2 #794
+2023/03/03-00:00:43.798 17c4 Delete type=2 #801
+2023/03/03-00:00:43.798 17c4 Delete type=2 #792
+2023/03/03-00:00:43.798 17c4 Delete type=2 #799
+2023/03/03-00:00:43.798 17c4 Delete type=2 #797

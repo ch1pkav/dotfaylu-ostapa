@@ -1,0 +1,192 @@
+Visual Studio Code (1.75.0, undefined, desktop)
+Jupyter Extension Version: 2022.11.1003412109.
+Python Extension Version: 2022.20.2.
+Workspace folder /home/ostap/Documents/algo/Final
+info 12:29:21.392: ZMQ install verified.
+User belongs to experiment group 'jupyterTestcf'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+error 12:29:22.527: Python extension is not exporting the jupyter API
+info 12:29:22.634: LSP Notebooks experiment is enabled
+error 12:29:22.663: [Error: Python extension is not exporting the jupyter API
+	at I.registerHooks (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2525717)
+	at I.init (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2525113)
+	at I.getNewApi (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2524882)
+	at x.getApi (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2534991)
+	at x.hookupOnDidChangeInterpreterEvent (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537574)
+	at x.getInterpreters (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2530520)
+	at x.populateCachedListOfInterpreters (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2535199)
+	at x.buildListOfInterpretersForFirstTime (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537201)
+	at x.hookupOnDidChangeInterpreterEvent (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537531)
+	at get onDidChangeInterpreter [as onDidChangeInterpreter] (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2530050)
+	at new K (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:7:44572)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848451)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:849307
+	at Array.map (<anonymous>)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:849279
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at t.resolve (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850652)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:834065
+	at e._get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:833831)
+	at e.get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:832474)
+	at r.get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:17:50299)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:1576688]
+error 12:29:22.673: getCondaVersionFromPython, Class name = k, completed in 113ms, has a falsy return value [Error: Python extension is not exporting the jupyter API
+	at I.registerHooks (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2525717)
+	at I.init (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2525113)
+	at I.getNewApi (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2524882)
+	at x.getApi (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2534991)
+	at x.hookupOnDidChangeInterpreterEvent (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537574)
+	at x.getInterpreters (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2530520)
+	at x.populateCachedListOfInterpreters (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2535199)
+	at x.buildListOfInterpretersForFirstTime (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537201)
+	at x.hookupOnDidChangeInterpreterEvent (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537531)
+	at get onDidChangeInterpreter [as onDidChangeInterpreter] (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2530050)
+	at new K (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:7:44572)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848451)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:849307
+	at Array.map (<anonymous>)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:849279
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at t.resolve (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850652)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:834065
+	at e._get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:833831)
+	at e.get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:832474)
+	at r.get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:17:50299)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:1576688]
+error 12:29:22.675: getCondaFile, Class name = k, completed in 115ms, has a falsy return value [Error: Python extension is not exporting the jupyter API
+	at I.registerHooks (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2525717)
+	at I.init (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2525113)
+	at I.getNewApi (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2524882)
+	at x.getApi (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2534991)
+	at x.hookupOnDidChangeInterpreterEvent (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537574)
+	at x.getInterpreters (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2530520)
+	at x.populateCachedListOfInterpreters (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2535199)
+	at x.buildListOfInterpretersForFirstTime (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537201)
+	at x.hookupOnDidChangeInterpreterEvent (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537531)
+	at get onDidChangeInterpreter [as onDidChangeInterpreter] (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2530050)
+	at new K (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:7:44572)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848451)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:849307
+	at Array.map (<anonymous>)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:849279
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at t.resolve (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850652)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:834065
+	at e._get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:833831)
+	at e.get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:832474)
+	at r.get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:17:50299)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:1576688]
+error 12:29:22.694: getCondaVersion, Class name = k, completed in 134ms, has a falsy return value [Error: Python extension is not exporting the jupyter API
+	at I.registerHooks (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2525717)
+	at I.init (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2525113)
+	at I.getNewApi (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2524882)
+	at x.getApi (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2534991)
+	at x.hookupOnDidChangeInterpreterEvent (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537574)
+	at x.getInterpreters (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2530520)
+	at x.populateCachedListOfInterpreters (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2535199)
+	at x.buildListOfInterpretersForFirstTime (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537201)
+	at x.hookupOnDidChangeInterpreterEvent (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2537531)
+	at get onDidChangeInterpreter [as onDidChangeInterpreter] (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:2530050)
+	at new K (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:7:44572)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848451)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:849307
+	at Array.map (<anonymous>)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:849279
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:848225)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850389
+	at t.resolve (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:850652)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:834065
+	at e._get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:833831)
+	at e.get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:832474)
+	at r.get (/home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:17:50299)
+	at /home/ostap/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:2:1576688]
+info 13:54:46.539: Shutting down notebooks for 9e8f526e-3312-404f-b54e-08ac82b3dba2
+info 13:54:46.540: Disposing HostJupyterExecution ed52e485-e732-41e4-a52f-a3ad8961841e
+info 13:54:46.540: Disposing super HostJupyterExecution ed52e485-e732-41e4-a52f-a3ad8961841e
+info 13:54:46.540: Disposing HostJupyterExecution ed52e485-e732-41e4-a52f-a3ad8961841e
+info 13:54:46.540: Finished disposing HostJupyterExecution  ed52e485-e732-41e4-a52f-a3ad8961841e
+info 13:54:46.545: Cleaning up server cache ed52e485-e732-41e4-a52f-a3ad8961841e
+info 13:54:46.545: Finished disposing HostJupyterExecution  ed52e485-e732-41e4-a52f-a3ad8961841e

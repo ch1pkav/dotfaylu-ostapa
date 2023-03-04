@@ -1,0 +1,23 @@
+2023/03/03-13:46:14.949 5d1b Reusing MANIFEST /home/ostap/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/03-13:46:14.949 5d1b Recovering log #557
+2023/03/03-13:46:14.952 5d1b Reusing old log /home/ostap/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000557.log 
+2023/03/03-13:46:17.622 5dad Level-0 table #566: started
+2023/03/03-13:46:17.629 5dad Level-0 table #566: 275654 bytes OK
+2023/03/03-13:46:17.632 5dad Delete type=0 #557
+2023/03/03-13:46:17.632 5dad Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/03/03-13:46:17.632 5dad Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x1f\x02\x1f\x01\x10\x000\x000\x000\x001\x006\x007\x007\x007\x008\x002\x003\x003\x005\x006\x004\x001\x00\x01\x0c\x003\x006\x003\x003\x002\x009\x003\x002\x009\x000\x000\x002' @ 579120 : 1
+2023/03/03-13:46:17.632 5dad Compacting 1@1 + 5@2 files
+2023/03/03-13:46:17.667 5dad Generated table #567@1: 1375 keys, 2146290 bytes
+2023/03/03-13:46:17.696 5dad Generated table #568@1: 3202 keys, 2147387 bytes
+2023/03/03-13:46:17.735 5dad Generated table #569@1: 12635 keys, 2173895 bytes
+2023/03/03-13:46:17.807 5dad Generated table #570@1: 714 keys, 2126437 bytes
+2023/03/03-13:46:17.838 5dad Generated table #571@1: 7836 keys, 481460 bytes
+2023/03/03-13:46:17.838 5dad Compacted 1@1 + 5@2 files => 9075469 bytes
+2023/03/03-13:46:17.841 5dad compacted to: files[ 0 0 5 0 0 0 0 ]
+2023/03/03-13:46:17.842 5dad Delete type=2 #561
+2023/03/03-13:46:17.842 5dad Delete type=2 #563
+2023/03/03-13:46:17.842 5dad Delete type=2 #559
+2023/03/03-13:46:17.842 5dad Delete type=2 #560
+2023/03/03-13:46:17.842 5dad Delete type=2 #562
+2023/03/03-13:46:17.842 5dad Delete type=2 #566
+2023/03/03-13:46:17.844 5dad Manual compaction at level-1 from '\x00\x1f\x02\x1f\x01\x10\x000\x000\x000\x001\x006\x007\x007\x007\x008\x002\x003\x003\x005\x006\x004\x001\x00\x01\x0c\x003\x006\x003\x003\x002\x009\x003\x002\x009\x000\x000\x002' @ 579120 : 1 .. (end); will stop at (end)

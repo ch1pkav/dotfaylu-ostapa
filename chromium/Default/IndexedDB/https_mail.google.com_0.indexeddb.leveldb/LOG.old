@@ -1,0 +1,12 @@
+2023/03/02-00:13:41.541 9216 Reusing MANIFEST /home/ostap/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/02-00:13:41.541 9216 Recovering log #4
+2023/03/02-00:13:41.578 9216 Reusing old log /home/ostap/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2023/03/02-00:13:46.916 9219 Level-0 table #8: started
+2023/03/02-00:13:47.023 9219 Level-0 table #8: 2311830 bytes OK
+2023/03/02-00:13:47.028 9219 Delete type=0 #4
+2023/03/02-00:13:51.529 9222 Compacting 1@1 + 1@2 files
+2023/03/02-00:13:51.566 9222 Generated table #9@1: 160 keys, 259935 bytes
+2023/03/02-00:13:51.566 9222 Compacted 1@1 + 1@2 files => 259935 bytes
+2023/03/02-00:13:51.570 9222 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/02-00:13:51.570 9222 Delete type=2 #5
+2023/03/02-00:13:51.570 9222 Delete type=2 #8

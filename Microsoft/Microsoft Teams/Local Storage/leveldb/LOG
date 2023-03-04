@@ -1,0 +1,71 @@
+2023/03/03-13:46:12.487 5d18 Reusing MANIFEST /home/ostap/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/MANIFEST-000001
+2023/03/03-13:46:12.487 5d18 Recovering log #800
+2023/03/03-13:46:12.499 5d18 Level-0 table #804: started
+2023/03/03-13:46:12.518 5d18 Level-0 table #804: 576694 bytes OK
+2023/03/03-13:46:12.521 5d18 Delete type=0 #800
+2023/03/03-13:47:13.156 5e40 Level-0 table #807: started
+2023/03/03-13:47:13.182 5e40 Level-0 table #807: 414821 bytes OK
+2023/03/03-13:47:13.185 5e40 Delete type=0 #805
+2023/03/03-13:47:19.923 5e40 Level-0 table #809: started
+2023/03/03-13:47:19.932 5e40 Level-0 table #809: 166149 bytes OK
+2023/03/03-13:47:19.934 5e40 Delete type=0 #806
+2023/03/03-16:50:07.545 5e40 Level-0 table #811: started
+2023/03/03-16:50:07.553 5e40 Level-0 table #811: 102435 bytes OK
+2023/03/03-16:50:07.555 5e40 Delete type=0 #808
+2023/03/03-16:50:07.555 5e40 Compacting 4@0 + 1@1 files
+2023/03/03-16:50:07.573 5e40 Generated table #812@0: 611 keys, 676741 bytes
+2023/03/03-16:50:07.573 5e40 Compacted 4@0 + 1@1 files => 676741 bytes
+2023/03/03-16:50:07.574 5e40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/03-16:50:07.575 5e40 Delete type=2 #804
+2023/03/03-16:50:07.575 5e40 Delete type=2 #802
+2023/03/03-16:50:07.575 5e40 Delete type=2 #811
+2023/03/03-16:50:07.575 5e40 Delete type=2 #807
+2023/03/03-16:50:07.575 5e40 Delete type=2 #809
+2023/03/03-22:40:49.090 5e40 Level-0 table #814: started
+2023/03/03-22:40:49.096 5e40 Level-0 table #814: 99975 bytes OK
+2023/03/03-22:40:49.099 5e40 Delete type=0 #810
+2023/03/04-12:22:24.979 5e40 Level-0 table #816: started
+2023/03/04-12:22:24.994 5e40 Level-0 table #816: 96144 bytes OK
+2023/03/04-12:22:24.997 5e40 Delete type=0 #813
+2023/03/04-14:41:20.734 5e40 Level-0 table #818: started
+2023/03/04-14:41:20.749 5e40 Level-0 table #818: 98869 bytes OK
+2023/03/04-14:41:20.752 5e40 Delete type=0 #815
+2023/03/04-16:44:21.962 5e40 Level-0 table #820: started
+2023/03/04-16:44:21.966 5e40 Level-0 table #820: 97164 bytes OK
+2023/03/04-16:44:21.968 5e40 Delete type=0 #817
+2023/03/04-16:44:21.968 5e40 Compacting 4@0 + 1@1 files
+2023/03/04-16:44:21.982 5e40 Generated table #821@0: 614 keys, 678328 bytes
+2023/03/04-16:44:21.982 5e40 Compacted 4@0 + 1@1 files => 678328 bytes
+2023/03/04-16:44:21.984 5e40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/04-16:44:21.985 5e40 Delete type=2 #814
+2023/03/04-16:44:21.985 5e40 Delete type=2 #818
+2023/03/04-16:44:21.985 5e40 Delete type=2 #816
+2023/03/04-16:44:21.985 5e40 Delete type=2 #820
+2023/03/04-16:44:21.985 5e40 Delete type=2 #812
+2023/03/04-17:57:21.501 5e40 Level-0 table #823: started
+2023/03/04-17:57:21.510 5e40 Level-0 table #823: 90157 bytes OK
+2023/03/04-17:57:21.513 5e40 Delete type=0 #819
+2023/03/04-19:25:13.580 5e40 Level-0 table #825: started
+2023/03/04-19:25:13.585 5e40 Level-0 table #825: 35700 bytes OK
+2023/03/04-19:25:13.588 5e40 Delete type=0 #822
+2023/03/04-19:36:35.726 5e40 Level-0 table #827: started
+2023/03/04-19:36:35.731 5e40 Level-0 table #827: 182705 bytes OK
+2023/03/04-19:36:35.733 5e40 Delete type=0 #824
+2023/03/04-19:36:43.926 5e40 Level-0 table #829: started
+2023/03/04-19:36:43.928 5e40 Level-0 table #829: 39284 bytes OK
+2023/03/04-19:36:43.937 5e40 Delete type=0 #826
+2023/03/04-19:36:43.937 5e40 Compacting 4@0 + 1@1 files
+2023/03/04-19:36:43.965 5e40 Generated table #830@0: 624 keys, 702489 bytes
+2023/03/04-19:36:43.965 5e40 Compacted 4@0 + 1@1 files => 702489 bytes
+2023/03/04-19:36:43.971 5e40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/04-19:36:43.971 5e40 Delete type=2 #825
+2023/03/04-19:36:43.971 5e40 Delete type=2 #821
+2023/03/04-19:36:43.971 5e40 Delete type=2 #829
+2023/03/04-19:36:43.971 5e40 Delete type=2 #827
+2023/03/04-19:36:43.971 5e40 Delete type=2 #823
+2023/03/04-19:57:27.086 5e40 Level-0 table #832: started
+2023/03/04-19:57:27.090 5e40 Level-0 table #832: 72845 bytes OK
+2023/03/04-19:57:27.093 5e40 Delete type=0 #828
+2023/03/04-20:37:23.989 5e40 Level-0 table #834: started
+2023/03/04-20:37:23.992 5e40 Level-0 table #834: 52038 bytes OK
+2023/03/04-20:37:23.995 5e40 Delete type=0 #831

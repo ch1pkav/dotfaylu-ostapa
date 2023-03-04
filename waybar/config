@@ -1,0 +1,67 @@
+{
+    "spacing": 15,
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["pulseaudio", "backlight", "bluetooth", "network", "battery", "sway/language", "clock", "tray", "settings"],
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "clock": {
+        "timezone": "Europe/Kyiv",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%d-%m-%Y}"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-icons": [" ", " ", " ", " ", " "]
+    },
+    "network": {
+        "format-wifi": "{essid}  ",
+        "format-ethernet": " ",
+        "format-disconnected": "⚠ ",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "婢",
+        "format-icons": {
+            "headphone": " ",
+            "default": ["", " ", " "]
+        },
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    "backlight": {
+        "format": "{percent}% {icon}",
+        "format-icons": [""],
+        "on-scroll-down": "light -A 5%",
+        "on-scroll-up": "light -U 5%"
+    },
+    "bluetooth": {
+        "format": "{icon}",
+        "format-connected": "{device_alias} {icon}",
+        "format-disabled": "{icon}",
+        "format-icons": {
+            "enabled": " ",
+            "disabled": " "
+        },
+        "interval": 30,
+        "on-click": "rfkill toggle bluetooth",
+        "tooltip-format": "{}"
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 1,
+    },
+    "sway/language": {
+        "format": "{}",
+        "on-click": "swaymsg input '1:1:AT_Translated_Set_2_keyboard' xkb_switch_layout next",
+        "max-length": 50
+    }
+
+}

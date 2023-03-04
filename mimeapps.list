@@ -1,0 +1,16 @@
+[Default Applications]
+x-scheme-handler/msteams=teams.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_home_ostap_st_stm32cubeide_1.11.0_.desktop
+x-scheme-handler/eclipse+mpc x-scheme-handler/eclipse+command=_home_ostap_st_stm32cubeide_1.11.0_.desktop
+x-scheme-handler/tg=org.telegram.desktop._79f29837986b25da24dbb9f02bae996f.desktop
+application/pdf=FoxitReader.desktop
+application/ppdf=FoxitReader.desktop
+application/xfdf=FoxitReader.desktop
+application/fdf=FoxitReader.desktop
+text/html=chromium-browser.desktop
+x-scheme-handler/http=chromium-browser.desktop
+x-scheme-handler/https=chromium-browser.desktop
+x-scheme-handler/about=chromium-browser.desktop
+x-scheme-handler/unknown=chromium-browser.desktop
+
+[Added Associations]

@@ -1,0 +1,80 @@
+@define-color bar-background #1d2021;
+@define-color module-background #06611e;
+@define-color workspace-active @module-background;
+@define-color worksace-inactive @bar-background;
+@define-color text-color #ebebeb;
+@define-color good #b8bb26;
+@define-color mid #fabd2f;
+@define-color bad #fb4934;
+
+* {
+        border: none;
+        border-radius: 0;
+        font-size: 14px;
+        text-shadow: none;
+        box-shadow: none;
+        transition-duration: 0s;
+        color: @text-color;
+        background-color: @bar-background;
+}
+
+#window {
+	font-family: bold;
+}
+
+#window {
+        color: @text-color;
+        margin: 5px 0;
+	padding: 2px 5px;
+        border-radius: 2px;
+}
+
+#workspaces button {
+        padding: 0 5px;
+}
+
+#workspaces button.visible {
+        background: @workspace-active;
+}
+
+#workspaces button.focused {
+        background: @workspace-active;
+}
+
+
+#pulseaudio, #backlight, #bluetooth, #cpu, #network, #language, #clock, #battery, #settings{
+        border: none;
+        border-radius: 1;
+        padding-left: 5px;
+        padding-right: 10px;
+        opacity: 1;
+        background-color: @module-background;
+        color: @text-color;
+}
+
+
+#network.disconnected {
+        color: @bad;
+}
+
+#battery {
+
+        color: @text-color;
+}
+
+#battery.critical {
+        background-color: @bad;
+}
+
+#battery.good {
+        background-color: @good;
+}
+
+#battery.charging {
+        background-color: @mid;
+}
+
+#tray {
+	padding: 2px 5px;
+
+}

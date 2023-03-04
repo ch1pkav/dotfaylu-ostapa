@@ -1,0 +1,39 @@
+2023/03/02-21:03:12.851 3 Reusing MANIFEST /home/ostap/.config/chromium/Default/Session Storage/MANIFEST-000001
+2023/03/02-21:03:12.853 3 Recovering log #34
+2023/03/02-21:03:12.854 3 Reusing old log /home/ostap/.config/chromium/Default/Session Storage/000034.log 
+2023/03/02-21:03:19.149 5 Level-0 table #38: started
+2023/03/02-21:03:19.161 5 Level-0 table #38: 22189 bytes OK
+2023/03/02-21:03:19.167 5 Delete type=0 #34
+2023/03/02-21:03:19.168 5 Compacting 4@0 + 1@1 files
+2023/03/02-21:03:19.180 5 Generated table #39@0: 2990 keys, 57186 bytes
+2023/03/02-21:03:19.180 5 Compacted 4@0 + 1@1 files => 57186 bytes
+2023/03/02-21:03:19.183 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/02-21:03:19.186 5 Delete type=2 #35
+2023/03/02-21:03:19.186 5 Delete type=2 #38
+2023/03/02-21:03:19.187 5 Delete type=2 #30
+2023/03/02-21:03:19.187 5 Delete type=2 #28
+2023/03/02-21:03:19.187 5 Delete type=2 #33
+2023/03/03-13:10:10.978 3 Level-0 table #41: started
+2023/03/03-13:10:10.983 3 Level-0 table #41: 23730 bytes OK
+2023/03/03-13:10:10.988 3 Delete type=0 #37
+2023/03/03-15:27:15.591 5c Level-0 table #43: started
+2023/03/03-15:27:15.597 5c Level-0 table #43: 19104 bytes OK
+2023/03/03-15:27:15.601 5c Delete type=0 #40
+2023/03/03-16:48:47.467 3 Level-0 table #45: started
+2023/03/03-16:48:47.474 3 Level-0 table #45: 21021 bytes OK
+2023/03/03-16:48:47.478 3 Delete type=0 #42
+2023/03/04-15:16:10.146 3 Level-0 table #47: started
+2023/03/04-15:16:10.168 3 Level-0 table #47: 17107 bytes OK
+2023/03/04-15:16:10.178 3 Delete type=0 #44
+2023/03/04-15:16:10.185 3 Compacting 4@0 + 1@1 files
+2023/03/04-15:16:10.198 3 Generated table #48@0: 3798 keys, 87506 bytes
+2023/03/04-15:16:10.198 3 Compacted 4@0 + 1@1 files => 87506 bytes
+2023/03/04-15:16:10.201 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/04-15:16:10.203 3 Delete type=2 #43
+2023/03/04-15:16:10.203 3 Delete type=2 #41
+2023/03/04-15:16:10.204 3 Delete type=2 #39
+2023/03/04-15:16:10.204 3 Delete type=2 #47
+2023/03/04-15:16:10.204 3 Delete type=2 #45
+2023/03/04-19:36:32.802 3 Level-0 table #50: started
+2023/03/04-19:36:32.808 3 Level-0 table #50: 15380 bytes OK
+2023/03/04-19:36:32.817 3 Delete type=0 #46

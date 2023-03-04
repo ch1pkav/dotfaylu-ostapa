@@ -1,0 +1,6 @@
+2023/02/27-18:09:55.309 1146 Creating DB /home/ostap/.config/chromium/Default/IndexedDB/https_www.mindmeister.com_0.indexeddb.leveldb since it was missing.
+2023/02/27-18:09:55.315 1146 Reusing MANIFEST /home/ostap/.config/chromium/Default/IndexedDB/https_www.mindmeister.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/27-18:10:44.345 1147 Level-0 table #5: started
+2023/02/27-18:10:44.348 1147 Level-0 table #5: 401 bytes OK
+2023/02/27-18:10:44.351 1147 Delete type=0 #3
+2023/02/27-18:10:44.352 1147 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

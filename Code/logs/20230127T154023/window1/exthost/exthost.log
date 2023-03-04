@@ -1,0 +1,4 @@
+2023-01-27 15:40:25.908 [info] Extension host with pid 3119 started
+2023-01-27 15:40:25.908 [info] Skipping acquiring lock for /home/ostap/.config/Code/User/workspaceStorage/25223c6041aebeccdae20dcc9aef993f.
+2023-01-27 15:40:25.912 [info] Extension host terminating: renderer closed the socket
+2023-01-27 15:40:25.913 [info] Extension host with pid 3119 exiting with code 0

@@ -1,0 +1,19 @@
+2023-01-09 15:25:23,794 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2023-01-09 15:25:23,797 DEBUG    root            Running [gcloud.init] with arguments: []
+2023-01-09 15:25:23,797 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2023-01-09 15:25:23,798 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2023-01-09 15:25:23,802 INFO     ___FILE_ONLY___ core:
+  account: ostap.seryvko@ucu.edu.ua
+  disable_usage_reporting: 'True'
+  project: spheric-crow-373811
+
+2023-01-09 15:25:23,802 INFO     ___FILE_ONLY___ 
+
+2023-01-09 15:25:43,573 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

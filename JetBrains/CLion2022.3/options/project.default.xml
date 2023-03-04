@@ -1,0 +1,12 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="NimProjectFileService" has-nim-files="false" />
+      <component name="NimToolchainService">
+        <option name="rootPaths">
+          <list />
+        </option>
+      </component>
+    </defaultProject>
+  </component>
+</application>

@@ -1,0 +1,4 @@
+2023-02-20 15:13:35.196 [info] Deleted from disk reditorsupport.r /home/ostap/.vscode/extensions/reditorsupport.r-2.7.0
+2023-02-20 15:13:35.661 [info] Starting worker process with pid 69048 (type: fileWatcher, window: 1).
+2023-02-20 15:13:36.772 [info] Deleted from disk ms-python.vscode-pylance /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.2.20
+2023-02-20 15:13:38.279 [error] [uncaught exception in sharedProcess]: Channel name 'extensionRecommendationNotification' timed out after 1000ms

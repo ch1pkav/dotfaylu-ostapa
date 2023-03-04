@@ -1,0 +1,26 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/OOp/FlowerStore-Endgame" value="true" />
+        <entry key="$USER_HOME$/Documents/OOp/FlowerStore3-ReturnOfJedi" value="true" />
+        <entry key="$USER_HOME$/Documents/OOp/FlowerStoreSequel" value="true" />
+        <entry key="$USER_HOME$/Documents/OOp/Lab11" value="true" />
+        <entry key="$USER_HOME$/Documents/OOp/Lab13" value="true" />
+        <entry key="$USER_HOME$/Documents/OOp/No_Flower_Store_Question_mark" value="true" />
+        <entry key="$USER_HOME$/Documents/OOp/Once_More_Patterns" value="true" />
+        <entry key="$USER_HOME$/Documents/OOp/Some-Patterns-IDK" value="true" />
+        <entry key="$USER_HOME$/Documents/OOp/SomeAnotherPatterns" value="true" />
+        <entry key="$USER_HOME$/FlowerStore-Endgame" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/Lab10" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/OOp" />
+      </list>
+    </option>
+  </component>
+</application>

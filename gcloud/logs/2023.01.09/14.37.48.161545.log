@@ -1,0 +1,90 @@
+2023-01-09 14:37:48,187 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2023-01-09 14:37:48,193 DEBUG    root            Running [gcloud.init] with arguments: []
+2023-01-09 14:37:48,193 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2023-01-09 14:37:48,197 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2023-01-09 14:37:48,197 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2023-01-09 14:37:48,199 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2023-01-09 14:37:48,199 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2023-01-09 14:37:48,201 INFO     ___FILE_ONLY___ Checking network connection...
+2023-01-09 14:37:56,199 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): accounts.google.com:443
+2023-01-09 14:37:58,387 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET / HTTP/1.1" 302 338
+2023-01-09 14:38:00,764 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /ServiceLogin?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F HTTP/1.1" 302 526
+2023-01-09 14:38:07,920 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /v3/signin/identifier?dsh=S135236189%3A1673267878418341&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh7BXt6HmxpV5PteL4VT23t8WuxZVqf478qbu0qRKd8WEVHr2v_qWzanhngU3FowRSbyTMcsgA HTTP/1.1" 200 None
+2023-01-09 14:38:08,172 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2023-01-09 14:38:15,553 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1beta1/projects HTTP/1.1" 401 None
+2023-01-09 14:38:15,559 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.googleapis.com:443
+2023-01-09 14:38:18,515 DEBUG    urllib3.connectionpool https://www.googleapis.com:443 "GET /auth/cloud-platform HTTP/1.1" 200 14
+2023-01-09 14:38:18,520 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-01-09 14:38:18,676 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 203441
+2023-01-09 14:38:18,934 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2023-01-09 14:38:18,935 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2023-01-09 14:38:26,228 DEBUG    root            'utf-8' codec can't decode byte 0xd0 in position 0: invalid continuation byte
+Traceback (most recent call last):
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/home/ostap/google-cloud-sdk/lib/surface/init.py", line 157, in Run
+    if not self._PickAccount(
+  File "/home/ostap/google-cloud-sdk/lib/surface/init.py", line 215, in _PickAccount
+    answer = console_io.PromptContinue(
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 299, in PromptContinue
+    answer = GetAnswer(reprompt)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 279, in GetAnswer
+    answer = _GetInput()
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 119, in _GetInput
+    return input()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd0 in position 0: invalid continuation byte
+2023-01-09 14:38:26,231 ERROR    ___FILE_ONLY___ BEGIN CRASH STACKTRACE
+Traceback (most recent call last):
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/command_lib/crash_handling.py", line 191, in Wrapper
+    target_function(*args, **kwargs)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/gcloud_main.py", line 186, in main
+    gcloud_cli.Execute()
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 1013, in Execute
+    self._HandleAllErrors(exc, command_path_string, specified_arg_names)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 1050, in _HandleAllErrors
+    exceptions.HandleError(exc, command_path_string, self.__known_error_handler)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/exceptions.py", line 555, in HandleError
+    core_exceptions.reraise(exc)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/core/exceptions.py", line 146, in reraise
+    six.reraise(type(exc_value), exc_value, tb)
+  File "/home/ostap/google-cloud-sdk/lib/third_party/six/__init__.py", line 719, in reraise
+    raise value
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/home/ostap/google-cloud-sdk/lib/surface/init.py", line 157, in Run
+    if not self._PickAccount(
+  File "/home/ostap/google-cloud-sdk/lib/surface/init.py", line 215, in _PickAccount
+    answer = console_io.PromptContinue(
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 299, in PromptContinue
+    answer = GetAnswer(reprompt)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 279, in GetAnswer
+    answer = _GetInput()
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/core/console/console_io.py", line 119, in _GetInput
+    return input()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd0 in position 0: invalid continuation byte
+2023-01-09 14:38:26,234 ERROR    root            gcloud crashed (UnicodeDecodeError): 'utf-8' codec can't decode byte 0xd0 in position 0: invalid continuation byte
+2023-01-09 14:38:26,234 INFO     ___FILE_ONLY___ 
+If you would like to report this issue, please run the following command:
+
+2023-01-09 14:38:26,234 INFO     ___FILE_ONLY___   gcloud feedback
+
+2023-01-09 14:38:26,235 INFO     ___FILE_ONLY___ 
+To check gcloud for common problems, please run the following command:
+
+2023-01-09 14:38:26,235 INFO     ___FILE_ONLY___   gcloud info --run-diagnostics
+

@@ -1,0 +1,147 @@
+2023-01-09 14:56:31,101 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2023-01-09 14:56:31,104 DEBUG    root            Running [gcloud.init] with arguments: []
+2023-01-09 14:56:31,104 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2023-01-09 14:56:31,105 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2023-01-09 14:56:31,110 INFO     ___FILE_ONLY___ core:
+  account: ostap.seryvko@ucu.edu.ua
+  disable_usage_reporting: 'True'
+  project: apps-ucu
+
+2023-01-09 14:56:31,110 INFO     ___FILE_ONLY___ 
+
+2023-01-09 14:56:51,199 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2023-01-09 14:56:51,199 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2023-01-09 14:56:51,199 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2023-01-09 14:56:51,200 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2023-01-09 14:56:51,203 INFO     ___FILE_ONLY___ Checking network connection...
+2023-01-09 14:56:52,935 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): accounts.google.com:443
+2023-01-09 14:56:53,079 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET / HTTP/1.1" 302 338
+2023-01-09 14:56:53,175 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /ServiceLogin?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F HTTP/1.1" 302 525
+2023-01-09 14:56:53,284 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /v3/signin/identifier?dsh=S1761746131%3A1673269013096536&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AeAAQh49FU9mqbaiKmNCzOPDdvf01RePvt1yqMRWwI0RyhxXODwmvOuF2P2SkBw2nZr1eCeheVfX HTTP/1.1" 200 None
+2023-01-09 14:56:53,353 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2023-01-09 14:56:54,262 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1beta1/projects HTTP/1.1" 401 None
+2023-01-09 14:56:54,274 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.googleapis.com:443
+2023-01-09 14:56:54,425 DEBUG    urllib3.connectionpool https://www.googleapis.com:443 "GET /auth/cloud-platform HTTP/1.1" 200 14
+2023-01-09 14:56:54,438 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-01-09 14:56:54,606 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 203441
+2023-01-09 14:56:54,817 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2023-01-09 14:56:54,818 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2023-01-09 14:56:57,196 INFO     ___FILE_ONLY___ You are logged in as: [ostap.seryvko@ucu.edu.ua].
+
+
+2023-01-09 14:56:57,232 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2023-01-09 14:57:02,251 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=201 HTTP/1.1" 200 None
+2023-01-09 14:57:06,066 INFO     ___FILE_ONLY___ Your current project has been set to: [spheric-crow-373811].
+
+
+2023-01-09 14:57:06,101 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2023-01-09 14:57:06,104 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2023-01-09 14:57:06,112 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2023-01-09 14:57:06,113 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2023-01-09 14:57:06,115 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2023-01-09 14:57:06,290 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-01-09 14:57:08,296 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /batch/compute/v1 HTTP/1.1" 200 None
+2023-01-09 14:57:08,330 DEBUG    root            (gcloud.compute.project-info.describe) PERMISSION_DENIED: Compute Engine API has not been used in project 456028053670 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=456028053670 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+- '@type': type.googleapis.com/google.rpc.Help
+  links:
+  - description: Google developers console API activation
+    url: https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=456028053670
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: googleapis.com
+  metadatas:
+    consumer: projects/456028053670
+    service: compute.googleapis.com
+  reason: SERVICE_DISABLED
+Traceback (most recent call last):
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "/home/ostap/google-cloud-sdk/lib/surface/compute/project_info/describe.py", line 37, in Run
+    return client.MakeRequests([(client.apitools_client.projects, 'Get',
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 127, in MakeRequests
+    objects = list(
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/request_helper.py", line 316, in MakeRequests
+    responses, new_errors = batch_helper.MakeRequests(
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/batch_helper.py", line 106, in MakeRequests
+    responses = batch_request.Execute(
+  File "/home/ostap/google-cloud-sdk/lib/third_party/apitools/base/py/batch.py", line 226, in Execute
+    batch_http_request.Execute(http)
+  File "/home/ostap/google-cloud-sdk/lib/third_party/apitools/base/py/batch.py", line 506, in Execute
+    self.__callback(response, exception)
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/batch_helper.py", line 74, in BatchCheck
+    apis.PromptToEnableApi(project, service_token, exception,
+  File "/home/ostap/google-cloud-sdk/lib/googlecloudsdk/api_lib/util/apis.py", line 193, in PromptToEnableApi
+    raise exception
+googlecloudsdk.api_lib.util.exceptions.HttpException: PERMISSION_DENIED: Compute Engine API has not been used in project 456028053670 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=456028053670 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+- '@type': type.googleapis.com/google.rpc.Help
+  links:
+  - description: Google developers console API activation
+    url: https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=456028053670
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: googleapis.com
+  metadatas:
+    consumer: projects/456028053670
+    service: compute.googleapis.com
+  reason: SERVICE_DISABLED
+2023-01-09 14:57:08,339 ERROR    root            (gcloud.compute.project-info.describe) PERMISSION_DENIED: Compute Engine API has not been used in project 456028053670 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=456028053670 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+- '@type': type.googleapis.com/google.rpc.Help
+  links:
+  - description: Google developers console API activation
+    url: https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=456028053670
+- '@type': type.googleapis.com/google.rpc.ErrorInfo
+  domain: googleapis.com
+  metadatas:
+    consumer: projects/456028053670
+    service: compute.googleapis.com
+  reason: SERVICE_DISABLED
+2023-01-09 14:57:08,339 INFO     root            [compute project-info describe --quiet] has failed
+
+2023-01-09 14:57:08,339 INFO     ___FILE_ONLY___ Not setting default zone/region (this feature makes it easier to use
+[gcloud compute] by setting an appropriate default value for the
+--zone and --region flag).
+See https://cloud.google.com/compute/docs/gcloud-compute section on how to set
+default compute region and zone manually. If you would like [gcloud init] to be
+able to do this for you the next time you run it, make sure the
+Compute Engine API is enabled for your project on the
+https://console.developers.google.com/apis page.
+
+
+2023-01-09 14:57:08,340 DEBUG    root            Not configuring default .boto file. File already exists at [/home/ostap/.boto].
+2023-01-09 14:57:08,340 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2023-01-09 14:57:08,340 INFO     ___FILE_ONLY___ * Commands that require authentication will use ostap.seryvko@ucu.edu.ua by default
+
+2023-01-09 14:57:08,340 INFO     ___FILE_ONLY___ * Commands will reference project `spheric-crow-373811` by default
+
+2023-01-09 14:57:08,341 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2023-01-09 14:57:08,341 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2023-01-09 14:57:08,341 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2023-01-09 14:57:08,341 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2023-01-09 14:57:08,342 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2023-01-09 14:57:08,342 INFO     ___FILE_ONLY___ * Run `gcloud topic --help` to learn about advanced features of the SDK like arg files and output formatting
+
+2023-01-09 14:57:08,342 INFO     ___FILE_ONLY___ * Run `gcloud cheat-sheet` to see a roster of go-to `gcloud` commands.
+
+2023-01-09 14:57:08,343 INFO     root            Display format: "default"

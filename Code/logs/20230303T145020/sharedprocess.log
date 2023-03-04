@@ -1,0 +1,37 @@
+2023-03-03 14:50:22.611 [info] Starting worker process with pid 26100 (type: fileWatcher, window: 1).
+2023-03-03 14:50:25.991 [info] Getting Manifest... ms-python.python
+2023-03-03 14:50:26.001 [info] Getting Manifest... ms-python.vscode-pylance
+2023-03-03 14:50:26.006 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-03-03 14:50:26.007 [info] Getting Manifest... ms-vscode-remote.remote-ssh
+2023-03-03 14:50:26.758 [info] Installing extension: ms-vscode-remote.remote-ssh
+2023-03-03 14:50:26.761 [info] Installing extension: ms-toolsai.jupyter-keymap
+2023-03-03 14:50:27.096 [info] Installing extension: ms-python.python
+2023-03-03 14:50:27.098 [info] Installing extension: ms-python.vscode-pylance
+2023-03-03 14:50:27.809 [info] Getting Manifest... ms-python.python
+2023-03-03 14:50:27.894 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-03-03 14:50:31.285 [info] Extension signature verification: ms-toolsai.jupyter-keymap. Verification status: Verified.
+2023-03-03 14:50:31.326 [info] Extracted extension to /home/ostap/.vscode/extensions/.f2e4105a-4b41-4ebb-86f9-17c2444c7ad5: ms-toolsai.jupyter-keymap
+2023-03-03 14:50:31.334 [info] Renamed to /home/ostap/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.0
+2023-03-03 14:50:31.335 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2023-03-03 14:50:31.347 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-03-03 14:50:31.387 [info] Marked extension as uninstalled ms-toolsai.jupyter-keymap-1.0.0
+2023-03-03 14:50:31.611 [info] Extension signature verification: ms-vscode-remote.remote-ssh. Verification status: Verified.
+2023-03-03 14:50:32.054 [info] Extracted extension to /home/ostap/.vscode/extensions/.8ded1bb2-1053-4b57-891d-1d9c1e2982f4: ms-vscode-remote.remote-ssh
+2023-03-03 14:50:32.068 [info] Renamed to /home/ostap/.vscode/extensions/ms-vscode-remote.remote-ssh-0.98.0
+2023-03-03 14:50:32.083 [info] Extracting completed. ms-vscode-remote.remote-ssh
+2023-03-03 14:50:32.145 [info] Extension installed successfully: ms-vscode-remote.remote-ssh
+2023-03-03 14:50:32.184 [info] Marked extension as uninstalled ms-vscode-remote.remote-ssh-0.96.0
+2023-03-03 14:50:36.545 [info] Extension signature verification: ms-python.vscode-pylance. Verification status: Verified.
+2023-03-03 14:50:36.751 [info] Extension signature verification: ms-python.python. Verification status: Verified.
+2023-03-03 14:50:41.325 [info] Extracted extension to /home/ostap/.vscode/extensions/.156afc96-57f6-444d-a5bd-2fbfe0642ab8: ms-python.python
+2023-03-03 14:50:41.343 [info] Renamed to /home/ostap/.vscode/extensions/ms-python.python-2023.4.0
+2023-03-03 14:50:41.355 [info] Extracting completed. ms-python.python
+2023-03-03 14:50:41.369 [info] Extension installed successfully: ms-python.python
+2023-03-03 14:50:41.370 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2023-03-03 14:50:41.407 [info] Marked extension as uninstalled ms-python.python-2023.2.0
+2023-03-03 14:50:42.710 [info] Extracted extension to /home/ostap/.vscode/extensions/.beb6adc8-e1f1-4772-940c-2f071e4e01e9: ms-python.vscode-pylance
+2023-03-03 14:50:42.725 [info] Renamed to /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.3.10
+2023-03-03 14:50:42.728 [info] Extracting completed. ms-python.vscode-pylance
+2023-03-03 14:50:42.743 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-03-03 14:50:42.779 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.2.30
+2023-03-04 10:14:31.717 [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,7 @@
+2023/02/26-18:19:39.194 bb7b Reusing MANIFEST /home/ostap/.config/Microsoft/Microsoft Teams/IndexedDB/https_ucu.sharepoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/26-18:19:39.194 bb7b Recovering log #3
+2023/02/26-18:19:39.203 bb7b Reusing old log /home/ostap/.config/Microsoft/Microsoft Teams/IndexedDB/https_ucu.sharepoint.com_0.indexeddb.leveldb/000003.log 
+2023/02/26-18:20:22.325 990b Level-0 table #5: started
+2023/02/26-18:20:22.348 990b Level-0 table #5: 1320498 bytes OK
+2023/02/26-18:20:22.351 990b Delete type=0 #3
+2023/02/26-18:20:22.351 990b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
