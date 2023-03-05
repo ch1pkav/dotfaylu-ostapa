@@ -1,67 +1,85 @@
 {
-    "spacing": 15,
+    "layer": "bottom",
+    "position": "top",
+    "height": 30,
+
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
-    "modules-right": ["pulseaudio", "backlight", "bluetooth", "network", "battery", "sway/language", "clock", "tray", "settings"],
+    "modules-right": ["tray", "custom/storage", "backlight", "pulseaudio", "network", "battery", "clock", "sway/language"],
     "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
+        "format": " {}"
+    },
+    "sway/workspaces": {
+        "format": "{name}",
+        "disable-scroll": true
+    },
+    "sway/window": {
+        "max-length": 80,
+        "tooltip": false
     },
     "clock": {
-        "timezone": "Europe/Kyiv",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%d-%m-%Y}"
+        "format": "{:%a %d %b %H:%M}",
+        "tooltip": false
     },
     "battery": {
-        "states": {
-            "warning": 30,
-            "critical": 20
-        },
         "format": "{capacity}% {icon}",
+        "format-alt": "{time} {icon}",
+        "format-icons": [" ", " ", " ", " ", " "],
         "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-icons": [" ", " ", " ", " ", " "]
+        "interval": 30,
+        "states": {
+            "warning": 25,
+            "critical": 10
+        },
+        "tooltip": false
     },
     "network": {
-        "format-wifi": "{essid}  ",
-        "format-ethernet": " ",
-        "format-disconnected": "⚠ ",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format": "{icon}",
+        "format-alt": "{ipaddr}/{cidr} {icon}",
+        "format-alt-click": "click-right",
+        "format-icons": {
+            "wifi": [""],
+            "ethernet": [""],
+            "disconnected": [""]
+        },
+        "on-click": "termite -e nmtui",
+    "tooltip": false
     },
     "pulseaudio": {
-        "format": "{volume}% {icon}",
-        "format-muted": "婢",
+        "format": "{icon}",
+        "format-alt": "{volume} {icon}",
+        "format-alt-click": "click-right",
+        "format-muted": "",
         "format-icons": {
-            "headphone": " ",
-            "default": ["", " ", " "]
+            "phone": [" ", " ", " "],
+            "default": ["", "", ""]
         },
-        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+        "scroll-step": 10,
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+    "custom/storage": {
+        "format": "{}  ",
+        "format-alt": "{percentage}%  ",
+        "format-alt-click": "click-right",
+        "return-type": "json",
+        "interval": 60,
+        "exec": "~/.config/waybar/modules/storage.sh"
     },
     "backlight": {
-        "format": "{percent}% {icon}",
-        "format-icons": [""],
-        "on-scroll-down": "light -A 5%",
-        "on-scroll-up": "light -U 5%"
-    },
-    "bluetooth": {
         "format": "{icon}",
-        "format-connected": "{device_alias} {icon}",
-        "format-disabled": "{icon}",
-        "format-icons": {
-            "enabled": " ",
-            "disabled": " "
-        },
-        "interval": 30,
-        "on-click": "rfkill toggle bluetooth",
-        "tooltip-format": "{}"
-    },
-    "tray": {
-        "icon-size": 18,
-        "spacing": 1,
+        "format-alt": "{percent}% {icon}",
+        "format-alt-click": "click-right",
+        "format-icons": ["", ""],
+        "on-scroll-down": "light -A 1",
+        "on-scroll-up": "light -U 1"
     },
     "sway/language": {
         "format": "{}",
         "on-click": "swaymsg input '1:1:AT_Translated_Set_2_keyboard' xkb_switch_layout next",
         "max-length": 50
+    },
+    "tray": {
+        "icon-size": 18
     }
-
 }

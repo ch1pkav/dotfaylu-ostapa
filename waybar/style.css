@@ -1,80 +1,71 @@
-@define-color bar-background #1d2021;
-@define-color module-background #06611e;
-@define-color workspace-active @module-background;
-@define-color worksace-inactive @bar-background;
-@define-color text-color #ebebeb;
-@define-color good #b8bb26;
-@define-color mid #fabd2f;
-@define-color bad #fb4934;
-
 * {
-        border: none;
-        border-radius: 0;
-        font-size: 14px;
-        text-shadow: none;
-        box-shadow: none;
-        transition-duration: 0s;
-        color: @text-color;
-        background-color: @bar-background;
+    border:        none;
+    border-radius: 0;
+    font-family:   Sans;
+    font-size:     15px;
+    box-shadow:    none;
+    text-shadow:   none;
+    transition-duration: 0s;
 }
 
-#window {
-	font-family: bold;
+window {
+    color:      rgba(217, 216, 216, 1);
+    background: rgba(35, 31, 32, 1);
 }
 
-#window {
-        color: @text-color;
-        margin: 5px 0;
-	padding: 2px 5px;
-        border-radius: 2px;
+window#waybar.solo {
+    color:      rgba(217, 216, 216, 1);
+    background: rgba(35, 31, 32, 1);
+}
+
+#workspaces {
+    margin: 0 0px;
 }
 
 #workspaces button {
-        padding: 0 5px;
+    padding:    0 2px;
+    color:      rgba(217, 216, 216, 1);
 }
 
 #workspaces button.visible {
-        background: @workspace-active;
+    color:      rgba(217, 216, 216, 1);
 }
 
 #workspaces button.focused {
-        background: @workspace-active;
+    border-top: 3px solid rgba(217, 216, 216, 1);
+    border-bottom: 3px solid rgba(217, 216, 216, 0);
 }
 
-
-#pulseaudio, #backlight, #bluetooth, #cpu, #network, #language, #clock, #battery, #settings{
-        border: none;
-        border-radius: 1;
-        padding-left: 5px;
-        padding-right: 10px;
-        opacity: 1;
-        background-color: @module-background;
-        color: @text-color;
+#workspaces button.urgent {
+    color:      rgba(238, 46, 36, 1);
 }
 
-
-#network.disconnected {
-        color: @bad;
+#battery, #cpu, #memory, #network, #pulseaudio,  #backlight, #custom-storage #language{
+    margin:     0px 6px 0px 10px;
+    min-width:  25px;
 }
 
-#battery {
+#clock {
+    margin:     0px 16px 0px 10px;
+    min-width:  140px;
+}
 
-        color: @text-color;
+#battery.warning {
+   color:       rgba(255, 210, 4, 1);
 }
 
 #battery.critical {
-        background-color: @bad;
-}
-
-#battery.good {
-        background-color: @good;
+    color:      rgba(238, 46, 36, 1);
 }
 
 #battery.charging {
-        background-color: @mid;
+    color:      rgba(217, 216, 216, 1);
 }
 
-#tray {
-	padding: 2px 5px;
+#custom-storage.warning {
+    color:      rgba(255, 210, 4, 1);
+}
 
+#custom-storage.critical {
+    color:      rgba(238, 46, 36, 1);
 }
