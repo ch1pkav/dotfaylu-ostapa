@@ -1,6 +1,0 @@
-2023/02/27-17:10:43.065 1146 Creating DB /home/ostap/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb since it was missing.
-2023/02/27-17:10:43.069 1146 Reusing MANIFEST /home/ostap/.config/chromium/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
-2023/02/27-17:11:12.726 1147 Level-0 table #5: started
-2023/02/27-17:11:12.728 1147 Level-0 table #5: 405 bytes OK
-2023/02/27-17:11:12.734 1147 Delete type=0 #3
-2023/02/27-17:11:12.734 1147 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

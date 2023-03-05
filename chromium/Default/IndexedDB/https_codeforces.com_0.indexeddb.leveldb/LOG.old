@@ -1,6 +1,0 @@
-2023/03/01-22:50:04.464 b2d Creating DB /home/ostap/.config/chromium/Default/IndexedDB/https_codeforces.com_0.indexeddb.leveldb since it was missing.
-2023/03/01-22:50:04.471 b2d Reusing MANIFEST /home/ostap/.config/chromium/Default/IndexedDB/https_codeforces.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/01-22:50:06.592 b2e Level-0 table #5: started
-2023/03/01-22:50:06.594 b2e Level-0 table #5: 821 bytes OK
-2023/03/01-22:50:06.596 b2e Delete type=0 #3
-2023/03/01-22:50:06.597 b2e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

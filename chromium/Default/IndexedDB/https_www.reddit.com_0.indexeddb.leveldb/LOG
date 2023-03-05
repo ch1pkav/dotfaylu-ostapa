@@ -1,7 +1,0 @@
-2023/03/01-16:22:09.709 b2d Reusing MANIFEST /home/ostap/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/01-16:22:09.710 b2d Recovering log #3
-2023/03/01-16:22:09.710 b2d Reusing old log /home/ostap/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
-2023/03/01-16:23:12.626 b2e Level-0 table #5: started
-2023/03/01-16:23:12.628 b2e Level-0 table #5: 4531 bytes OK
-2023/03/01-16:23:12.631 b2e Delete type=0 #3
-2023/03/01-16:23:12.631 b2e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

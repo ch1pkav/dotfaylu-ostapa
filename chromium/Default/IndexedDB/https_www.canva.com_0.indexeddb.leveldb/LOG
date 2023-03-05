@@ -1,7 +1,0 @@
-2023/03/02-21:24:32.284 9fa Reusing MANIFEST /home/ostap/.config/chromium/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/02-21:24:32.284 9fa Recovering log #3
-2023/03/02-21:24:32.291 9fa Reusing old log /home/ostap/.config/chromium/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000003.log 
-2023/03/02-23:13:39.049 9fb Level-0 table #5: started
-2023/03/02-23:13:39.090 9fb Level-0 table #5: 570230 bytes OK
-2023/03/02-23:13:39.095 9fb Delete type=0 #3
-2023/03/02-23:13:39.095 9fb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

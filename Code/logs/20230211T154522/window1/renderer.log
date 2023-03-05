@@ -1,6 +1,0 @@
-2023-02-11 15:45:23.247 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-02-11 15:45:27.903 [info] [perf] Render performance baseline is 90ms
-2023-02-11 15:45:49.815 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/ostap/Documents/algo/Final/index.html 
-2023-02-11 15:45:49.817 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/ostap/Documents/algo/Final/minimum.py 
-2023-02-11 15:45:50.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2023-02-11 15:45:54.754 [info] [perf] Render performance baseline is 94ms

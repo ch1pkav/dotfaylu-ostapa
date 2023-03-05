@@ -1,5 +1,0 @@
-2023-01-23 18:21:56.391 [info] update#setState idle
-2023-01-23 18:21:57.490 [info] Starting extension host with pid 6584 (fork() took 12 ms).
-2023-01-23 18:22:26.394 [info] update#setState checking for updates
-2023-01-23 18:23:12.627 [info] Waiting for extension host with pid 6584 to exit.
-2023-01-23 18:23:12.813 [info] Extension host with pid 6584 exited with code: 0, signal: null.

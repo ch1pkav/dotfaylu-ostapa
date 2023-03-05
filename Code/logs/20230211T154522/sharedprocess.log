@@ -1,4 +1,0 @@
-2023-02-11 15:45:24.800 [info] Starting worker process with pid 23895 (type: fileWatcher, window: 1).
-2023-02-11 15:45:25.994 [info] Deleted from disk ms-python.vscode-pylance /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.2.10
-2023-02-11 15:45:49.905 [info] Worker process with pid 23895 terminated normally (type: fileWatcher, window: 1).
-2023-02-11 15:45:50.695 [info] Starting worker process with pid 23997 (type: fileWatcher, window: 1).

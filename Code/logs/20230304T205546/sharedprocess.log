@@ -1,6 +1,0 @@
-2023-03-04 20:55:49.501 [info] Deleted from disk ms-toolsai.jupyter-keymap /home/ostap/.vscode/extensions/ms-toolsai.jupyter-keymap-1.0.0
-2023-03-04 20:55:50.351 [info] Starting worker process with pid 86179 (type: fileWatcher, window: 1).
-2023-03-04 20:55:50.445 [info] Deleted from disk ms-vscode-remote.remote-ssh /home/ostap/.vscode/extensions/ms-vscode-remote.remote-ssh-0.96.0
-2023-03-04 20:55:51.685 [info] Deleted from disk ms-python.vscode-pylance /home/ostap/.vscode/extensions/ms-python.vscode-pylance-2023.2.30
-2023-03-04 20:55:51.999 [info] Deleted from disk ms-python.python /home/ostap/.vscode/extensions/ms-python.python-2023.2.0
-2023-03-04 20:55:53.433 [error] [uncaught exception in sharedProcess]: Channel name 'extensionRecommendationNotification' timed out after 1000ms
